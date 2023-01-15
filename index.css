@@ -12,6 +12,7 @@ body {
 	margin: auto;
 	border: 3px solid black;
 	border-radius: 10px;
+	margin-top: 10vh;
 }
 
 h1 {
@@ -32,12 +33,13 @@ button {
 	color: white;
 	font-weight: bold;
 	width: 200px;
-	margin-bottom: 5px;
+	margin-bottom: 1rem;
 	border-radius: 5px;
+	margin-inline: 1rem;
 }
 
 #increment-btn {
-	background: #2c2891;
+	background: darkred;
 }
 
 #save-btn {
@@ -46,4 +48,9 @@ button {
 
 #save-el {
 	font-weight: bold;
+}
+
+#message-div {
+	margin-top: 2rem;
+	margin-bottom: 5px;
 }
